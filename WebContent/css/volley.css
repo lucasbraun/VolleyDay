@@ -1,0 +1,131 @@
+body {
+    color: #171760; background-color: #EEF;
+    font-size: 100.01%;
+    font-family: Verdana,Arial,sans-serif;
+    margin: 0; padding: 0.5em;
+    min-width: 41em; /* Mindestbreite verhindert Umbruch und Anzeigefehler in modernen Browsern */
+  }
+
+h1 {
+    margin: 0 0 8 0;
+    padding: 12 0 12 215;
+    background-image:url(netz.jpg);
+    background-repeat:no-repeat;
+    white-space:nowrap;
+  }
+
+#fixiert {
+    position: absolute;
+    top: 7em; left: 1em;
+    background-color: #dde;
+    width: 180px;
+    border: 1px solid silver;
+  }
+
+  html>body #fixiert {  /* nur fuer moderne Browser! */
+    position: fixed;
+  }
+
+ul#nav {
+    background-color: #dde;
+    margin:0; padding:2.5em 0;
+    width: 180px;
+    float:left;
+    font-size: 0.8em;  
+  }
+
+ul#nav li { 
+    list-style: none;
+    margin:0;
+    padding:0.5em;
+  }
+
+  ul#nav a {
+    display: block;
+    padding: 0.5em;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration:none;
+  }
+
+  ul#nav a:link {
+    color: #171760; background-color: #eef;
+    border: 1px dashed silver;
+  }
+
+  ul#nav a:visited {
+    color: #666; background-color: #eef;
+    border: 1px dashed silver;
+  }
+
+  ul#nav a:hover {
+    color: #DB0000; background-color: #dde;
+    border: 1px solid #DB0000;
+  }
+
+  ul#nav a:active {
+    color: #009000; background-color: #eef;
+    border: 1px solid #009000;
+  }
+
+  div#main {
+    margin-left: 200px;
+    magrgin-top: 100px;
+    padding: 0 1em;
+  }
+
+  * html div#main {
+    height: 1em;  /* Workaround gegen den 3-Pixel-Bug des Internet Explorer bis Version 6 */
+  } 
+
+  div#main p {
+    font-size: 0.84em; margin-top:1.2em;
+  }
+
+  div#main a {
+    color:#000099;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  div#main a:hover {
+    color:#CC0000;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  div#main a:visited {
+    color:#000066;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  div#main ul { 
+    margin-top:2.5em; margin-bottom:2em;
+  }
+
+  div#main li { 
+    list-style:square;
+    font-size:0.84em;
+    margin-bottom:0.5em;
+  }
+
+h2, h3, h4, h5, h6 { font-family: Verdana, Arial, sans-serif; font-weight:bold }
+
+h2 { color:#009900; font-size:1.3em; margin:15px 0 18px 0 } /* nur für Seiten-Top */
+h3 { color:#009900; font-size:1.15em; margin:26px 0 16px 0 }
+h4 { font-size:16px; margin:24px 0 12px 0 }
+h5 { font-size:0.9em; margin:24px 0 8px 0; }
+h6 { font-size:0.9em; font-style:italic; margin:12px 0 }
+
+table { border-collapse:collapse; margin-top:2em }
+
+td { font-size:0.84em; font-family: Arial, sans-serif; padding:5px }
+
+td.list { border:1px solid silver; vertical-align:middle }
+
+.redbutton { color:#DB0000 }
+
+.bluebutton { color:#171760 }
+
+.floatLeft { float: left }

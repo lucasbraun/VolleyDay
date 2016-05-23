@@ -1,0 +1,15 @@
+body {
+    color: white; background-color: black;
+    font-family: Verdana,Arial,sans-serif;
+    }
+
+h1, h2, h3, h4, h5, h6 { font-family: Verdana, Arial, sans-serif; font-weight:bold }
+
+h1 { font-size:1.5em}
+h2 { font-size:1.3em}
+
+table { border-collapse:collapse; margin-top:2em }
+
+td { font-size:0.84em; font-family: Arial, sans-serif; padding:5px }
+
+td.list { border:1px solid silver; vertical-align:middle }
